@@ -1,70 +1,96 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Amon Personal Site</title>
-    <!--Line 8,14 External Resource Link
-    font-family Ref:https://www.w3schools.com/whatis/tryit.asp?font=Aclonica-->
-    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>"
+    <meta charset="utf-8">
+    <title>Aj.NesT's Profile Site</title>
+    <!--Reference Google Fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Aclonica'rel='stylesheet'>
+    <!--Reference Social Media Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    
+    <!--external CSS=> 3rd pri-->
+    <link rel="stylesheet" href="CSS/index.css">
+    <!--Add Favicon Icon => https://www.favicon.cc/?-->
+     <link rel="icon" href="favicon.ico">
+
+
+    <!--Internal CSS=> 2nd Priority-->
+    <!--style>
+        /*CSS Comments*/
+        /*CSS syntax=> Selector { property: value;}*/
+        /*(1) Tag Selector*/
+    </style>-->  
+        
 </head>
 <body>
-    <h1 style="text-align: center;font-family: cursive;" >Profile</h1>
-    <h2 style="text-align: center;font-family: cursive;font-weight: normal;">I'm Amontamp </h2> 
-    <h4 style="text-align: center;font-family: cursive;font-weight: normal;"><i>"Be yourself no matter whatever they say."</i></h4>
-     <hr>  
-     <!--MENU--> 
-     <table style="width:100%; text-align: center"cellspacing="20">
-         <tr>
-             <td>
-                 <h3><a href="Profile.htmle">Profile</a></h3>
-             </td>
-             <td>
+    <!--Header-->
+    <!--Inline CSS-->
+    <!--the Content division element-->
+    <div class="top-container">
+    <h1>Profile</h1>
+    <h2>I'm <span class="name">MR.AMon</span> the Best</h2>  
+    <h4><i>"Belive the Impossible is Possible."</i></h4>
+    </div>    
+    <hr>
+    
+    <!--Menu-->
+    <div class="table-menu">
+     <table>
+        <tr>
+            <td>
+                <h3><a href="index.html">Profile</a></h3>
+            </td>
+            <td>
                 <h3><a href="experiences.html">Experiences</a></h3>
             </td>
             <td>
-                <h3><a href="abilities.htmls">abilities</a></h3>
+                <h3><a href="abilities.html">Abilities</a></h3>
             </td>
-            <td> 
-                <h3><a href="Projects.html">Projects</a></h3>  
+            <td>
+                <h3><a href="projects.html">Projects</a></h3>
             </td>
-            <td>  
-                <h3><a href="Contract.html">Contact</a></h3> 
-            </td>    
-         </tr>
-     </table>
-     <hr>
-     <table>
-         <tr>
-             <th style="width: 33.33%; vertical-align:top ;"><h2>About me</h2>
-                <p style="font-weight: normal;text-align: justify;"> I am a student 
-                    who likes computers and plays games ,Have the ability to design 
-                    graphics, Likes to learn new things all the time, i like football,
-                    and stream games in spare time, i like to watch movies in my free time . 
-            </p>
-                <p>Website:<a href="www.google.com/">google.com</a></p>
-                <p>Email:<a href="mailto: gamenoii666@gmail.com/">gamenoii666@gmail.com</a></p>
+            <td>
+                <h3><a href="contact.html">Contact</a></h3>
+            </td>
+        </tr>
+    </table>
+    </div>  
+    <hr>
+    <div class="table-content">
+    <table>
+        <tr>
+            <th><h2 >About me</h2>
+                <p class="p-Aboutme">   
+                    I am a Lecturer, Blogger, Traveler, Software Developer, and Investor 
+                    who likes to read new articles all the time, I have a dream to create 
+                    a Creative Product that can change the world for the better. 
+                    And want to take pictures of tourist attractions around the world, 
+                    teaching, sharing, exchanging knowledge, and developing Websites, 
+                    Mobile Apps, Games, etc. that are useful to the world.
+                </p>
+                <p>Website: <a href="https://www.glurgeek.com/">GlurGeek.com</a></p>
+                <p>Email: <a href="mailto: ajnesttheseries@gmail.com">ajnesttheseries@gmail.com</a></p>
             </th>
-            <th style="width: 33.33%;vertical-align: top;">
+            <th>
                 <!--Crop Circle Image: https://crop-circle.imageonline.co/-->
-                <p><img src="image/amon.jpeg.png" alt="Amon" style="width: 60%;"></p>
-            </th>
-            <th style="width: 33.33%;vertical-align: top; text-align: top;">
-                <h2>Details</h2>
-            <p>Name:</p>
-            <p style="font-weight: normal;">Mr.Amontamp</p>
-            <p>location:</p>
-            <p style="font-weight: normal;">thailand</p>
-            <p>Social media:</p>
-            <!--Reference Social Media Icons-->
-            <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-                <p><a href="https://www.youtube.com/channel/UC360z1mFO561jNwj8YH7rFg" class="fa fa-youtube-play"style="font-size: 40px; color: red;"></a>
-                <a  href="https://www.facebook.com/amontap.phetjiaranai/" class="fa fa-facebook-square"style="font-size: 40px; color: blue rgb (19.125.246)"></a>
-                <a href="https://www.instagram.com/" class="fa fa-instagram"style="font-size: 40px; color: #b30047  "></a>
-            </p>
+                <p><img src="images/amon.png" alt="Aj.NesT" style="width: 60%;"></p>
+                </th>
+                <th id="th-Details" ><h2>Details</h2>
+                <p>Name:</p>
+                    <p class="p-Name"style=>Aj. NesT the Series</p>
+                <p>Location:</p>
+                    <p class="p-Name">Thailand</p>
+                    <p>Social Media:</p>
+                    <p><a href="http://bit.ly/ajnesttheseriesSubscribe" class="fa fa-youtube" style="font-size: 40px; color: red;"></a>
+                        <a href="https://www.facebook.com/ajnesttheseries" class="fa fa-facebook-square" style="font-size: 40px; color: rgb(7, 114, 255);"></a>
+                        <a href="https://www.instagram.com/ajnesttheseries/" class="fa fa-instagram" style="font-size: 40px; color: brown;"></a>
+                        <a href="https://twitter.com/ajnesttheseries/" class="fa fa-twitter" style="font-size: 40px; color: rgb(63, 185, 255);"></a>
+                    </p>
             </th>
         </tr>
-     </table>
-     <hr>
-    <p style="text-align: center;">@ 2021 MR.Amon the best</p>
+    </table>
+    </div>
+    <hr>
+    <p class="p-Footer">© 2021 Aj. NesT the Series</p>
 </body>
 </html>
